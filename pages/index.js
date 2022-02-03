@@ -36,7 +36,8 @@ function Index(props) {
                      id:meetup._id.toString()
                     }
              })
-         }
+         },
+         revalidate:1,
      }
  }
 
